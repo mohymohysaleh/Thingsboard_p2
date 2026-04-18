@@ -1,0 +1,40 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "fe164540-3ab5-11f1-a21a-29a16b615372"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "000284e0-3ab6-11f1-a21a-29a16b615372"
+    },
+    "label" : null,
+    "name" : "Floor-F04",
+    "type" : "floor"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f9830180-3ab5-11f1-a21a-29a16b615372"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "000284e0-3ab6-11f1-a21a-29a16b615372"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 651
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

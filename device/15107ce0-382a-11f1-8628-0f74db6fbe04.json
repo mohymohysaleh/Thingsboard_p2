@@ -1,0 +1,72 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : { },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "3d102980-3829-11f1-8628-0f74db6fbe04"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "15107ce0-382a-11f1-8628-0f74db6fbe04"
+    },
+    "label" : null,
+    "name" : "b01-f05-r106",
+    "softwareId" : null,
+    "type" : "MQTT-ThermalSensor"
+  },
+  "credentials" : {
+    "credentialsId" : "VvXvatTNH1UlboH4CqcK",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "bda3eb40-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "15107ce0-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 174
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1776189524392,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1776189524166,
+      "longValue" : 1776189523996,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

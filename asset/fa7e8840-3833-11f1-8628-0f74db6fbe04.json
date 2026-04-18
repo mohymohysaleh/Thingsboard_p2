@@ -1,0 +1,302 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "412d9570-3833-11f1-8628-0f74db6fbe04"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "label" : null,
+    "name" : "Floor-10",
+    "type" : "Floor"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "89c06150-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 88
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "1673dd70-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 270
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "167d2c40-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 271
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "167e8bd0-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 269
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16814af0-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 272
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "1689fd80-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 279
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "168b5d10-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 273
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16912970-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 274
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "169a7840-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 276
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "169a7841-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 278
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16a4b170-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 275
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16ac5290-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 277
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16acc7c0-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 281
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16b9e720-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 282
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16be2ce0-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 280
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16bea210-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 283
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16c5a6f0-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 284
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16cd6f20-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 285
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16d7f670-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 287
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16d81d80-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 286
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16e1e180-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 288
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

@@ -1,0 +1,76 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : { },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "COAP",
+        "edrxCycle" : null,
+        "pagingTransmissionWindow" : null,
+        "powerMode" : null,
+        "psmActivityTimer" : null
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "59c6a040-3829-11f1-8628-0f74db6fbe04"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "16cd6f20-382a-11f1-8628-0f74db6fbe04"
+    },
+    "label" : null,
+    "name" : "b01-f10-r207",
+    "softwareId" : null,
+    "type" : "CoAP-ThermalSensor"
+  },
+  "credentials" : {
+    "credentialsId" : "9EGn06A2Fwo09OXoKvTC",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "fa7e8840-3833-11f1-8628-0f74db6fbe04"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "16cd6f20-382a-11f1-8628-0f74db6fbe04"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 285
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1776189524269,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1776189524154,
+      "longValue" : 1776189523996,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

@@ -1,0 +1,170 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "f97f5800-3ab5-11f1-a21a-29a16b615372"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "f9830180-3ab5-11f1-a21a-29a16b615372"
+    },
+    "label" : null,
+    "name" : "Building-B01",
+    "type" : "building"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f6b98140-3ab5-11f1-a21a-29a16b615372"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "f9830180-3ab5-11f1-a21a-29a16b615372"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 647
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f9830180-3ab5-11f1-a21a-29a16b615372"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "fe1b2740-3ab5-11f1-a21a-29a16b615372"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 648
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f9830180-3ab5-11f1-a21a-29a16b615372"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "fe73a780-3ab5-11f1-a21a-29a16b615372"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 649
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f9830180-3ab5-11f1-a21a-29a16b615372"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "fecf8320-3ab5-11f1-a21a-29a16b615372"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 650
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f9830180-3ab5-11f1-a21a-29a16b615372"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "000284e0-3ab6-11f1-a21a-29a16b615372"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 651
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f9830180-3ab5-11f1-a21a-29a16b615372"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "00e320e0-3ab6-11f1-a21a-29a16b615372"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 652
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f9830180-3ab5-11f1-a21a-29a16b615372"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "02a87790-3ab6-11f1-a21a-29a16b615372"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 653
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f9830180-3ab5-11f1-a21a-29a16b615372"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "0381c090-3ab6-11f1-a21a-29a16b615372"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 654
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f9830180-3ab5-11f1-a21a-29a16b615372"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "04f8a920-3ab6-11f1-a21a-29a16b615372"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 655
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f9830180-3ab5-11f1-a21a-29a16b615372"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "0591b4d0-3ab6-11f1-a21a-29a16b615372"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 656
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f9830180-3ab5-11f1-a21a-29a16b615372"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "06ec3bc0-3ab6-11f1-a21a-29a16b615372"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 657
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

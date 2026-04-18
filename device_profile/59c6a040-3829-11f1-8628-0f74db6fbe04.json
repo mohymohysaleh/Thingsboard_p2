@@ -1,0 +1,54 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : null,
+    "description" : "",
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "59c6a040-3829-11f1-8628-0f74db6fbe04"
+    },
+    "image" : null,
+    "name" : "CoAP-ThermalSensor",
+    "profileData" : {
+      "alarms" : null,
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "COAP",
+        "clientSettings" : {
+          "edrxCycle" : null,
+          "pagingTransmissionWindow" : null,
+          "powerMode" : "DRX",
+          "psmActivityTimer" : null
+        },
+        "coapDeviceTypeConfiguration" : {
+          "coapDeviceType" : "DEFAULT",
+          "transportPayloadTypeConfiguration" : {
+            "transportPayloadType" : "JSON"
+          }
+        }
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "COAP",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
