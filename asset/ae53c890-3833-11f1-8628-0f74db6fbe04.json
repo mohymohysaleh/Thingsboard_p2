@@ -12,7 +12,10 @@
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "ae53c890-3833-11f1-8628-0f74db6fbe04"
+    },
     "id" : {
       "entityType" : "ASSET",
       "id" : "ae53c890-3833-11f1-8628-0f74db6fbe04"
@@ -33,7 +36,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 82
+    "version" : 305
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -46,7 +49,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 129
+    "version" : 246
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -59,7 +62,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 134
+    "version" : 194
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -72,7 +75,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 131
+    "version" : 306
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -85,7 +88,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 133
+    "version" : 307
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -98,7 +101,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 130
+    "version" : 184
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -111,7 +114,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 135
+    "version" : 308
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -124,7 +127,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 132
+    "version" : 309
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -137,7 +140,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 140
+    "version" : 302
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -150,7 +153,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 136
+    "version" : 186
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -163,7 +166,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 137
+    "version" : 310
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -176,7 +179,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 138
+    "version" : 311
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -189,7 +192,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 139
+    "version" : 312
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -202,7 +205,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 141
+    "version" : 271
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -215,7 +218,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 142
+    "version" : 313
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -228,7 +231,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 143
+    "version" : 178
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -241,7 +244,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 148
+    "version" : 245
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -254,7 +257,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 146
+    "version" : 314
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -267,7 +270,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 147
+    "version" : 315
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -280,7 +283,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 144
+    "version" : 158
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -293,7 +296,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 145
+    "version" : 197
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]

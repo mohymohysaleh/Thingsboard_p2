@@ -10,7 +10,10 @@
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "fecf8320-3ab5-11f1-a21a-29a16b615372"
+    },
     "id" : {
       "entityType" : "ASSET",
       "id" : "fecf8320-3ab5-11f1-a21a-29a16b615372"
@@ -31,7 +34,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 650
+    "version" : 215
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]

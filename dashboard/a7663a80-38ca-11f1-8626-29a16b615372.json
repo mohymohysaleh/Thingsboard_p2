@@ -75,8 +75,11 @@
     },
     "name" : "New",
     "resources" : null,
-    "assignedCustomers" : null,
-    "externalId" : null,
+    "assignedCustomers" : [ ],
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "a7663a80-38ca-11f1-8626-29a16b615372"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "a7663a80-38ca-11f1-8626-29a16b615372"

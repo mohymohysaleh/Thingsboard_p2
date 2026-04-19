@@ -1170,8 +1170,11 @@
     },
     "name" : "Campus NOC Dashboard",
     "resources" : null,
-    "assignedCustomers" : null,
-    "externalId" : null,
+    "assignedCustomers" : [ ],
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "90a15810-3853-11f1-8628-0f74db6fbe04"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "90a15810-3853-11f1-8628-0f74db6fbe04"

@@ -5,7 +5,10 @@
       "description" : "Send notification to tenant admins when any Rule chain or Rule node failed to start, update or stop"
     },
     "enabled" : true,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "NOTIFICATION_RULE",
+      "id" : "38f6e2a0-3827-11f1-8628-0f74db6fbe04"
+    },
     "id" : {
       "entityType" : "NOTIFICATION_RULE",
       "id" : "38f6e2a0-3827-11f1-8628-0f74db6fbe04"
@@ -23,9 +26,9 @@
       "triggerType" : "RULE_ENGINE_COMPONENT_LIFECYCLE_EVENT",
       "onlyRuleChainLifecycleFailures" : true,
       "onlyRuleNodeLifecycleFailures" : true,
-      "ruleChainEvents" : [ "UPDATED", "STOPPED", "STARTED" ],
+      "ruleChainEvents" : [ "STARTED", "UPDATED", "STOPPED" ],
       "ruleChains" : null,
-      "ruleNodeEvents" : [ "UPDATED", "STOPPED", "STARTED" ],
+      "ruleNodeEvents" : [ "STARTED", "UPDATED", "STOPPED" ],
       "trackRuleNodeEvents" : true,
       "triggerType" : "RULE_ENGINE_COMPONENT_LIFECYCLE_EVENT"
     },
