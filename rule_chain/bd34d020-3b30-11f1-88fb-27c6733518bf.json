@@ -4,7 +4,10 @@
     "additionalInfo" : null,
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "bd34d020-3b30-11f1-88fb-27c6733518bf"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
       "id" : "bd4b3e50-3b30-11f1-88fb-27c6733518bf"
@@ -19,6 +22,10 @@
   },
   "metaData" : {
     "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 7,
+      "type" : "Success"
+    }, {
       "fromIndex" : 2,
       "toIndex" : 0,
       "type" : "Post telemetry"
@@ -39,12 +46,441 @@
       "toIndex" : 5,
       "type" : "RPC Request to Device"
     }, {
+      "fromIndex" : 2,
+      "toIndex" : 7,
+      "type" : "Alarm Acknowledged"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 14,
+      "type" : "Success"
+    }, {
       "fromIndex" : 6,
       "toIndex" : 2,
       "type" : "Success"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 8,
+      "type" : "True"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 13,
+      "type" : "False"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 10,
+      "type" : "True"
+    }, {
+      "fromIndex" : 11,
+      "toIndex" : 12,
+      "type" : "True"
+    }, {
+      "fromIndex" : 14,
+      "toIndex" : 0,
+      "type" : "True"
+    }, {
+      "fromIndex" : 17,
+      "toIndex" : 15,
+      "type" : "Post telemetry"
+    }, {
+      "fromIndex" : 17,
+      "toIndex" : 16,
+      "type" : "Post attributes"
+    }, {
+      "fromIndex" : 17,
+      "toIndex" : 18,
+      "type" : "RPC Request from Device"
+    }, {
+      "fromIndex" : 17,
+      "toIndex" : 19,
+      "type" : "Other"
+    }, {
+      "fromIndex" : 17,
+      "toIndex" : 20,
+      "type" : "RPC Request to Device"
+    }, {
+      "fromIndex" : 21,
+      "toIndex" : 17,
+      "type" : "Success"
     } ],
-    "firstNodeIndex" : 6,
+    "firstNodeIndex" : 21,
     "nodes" : [ {
+      "additionalInfo" : {
+        "layoutX" : 1049,
+        "layoutY" : 148
+      },
+      "configuration" : {
+        "defaultTTL" : 0,
+        "useServerTs" : false,
+        "processingSettings" : {
+          "type" : "ON_EVERY_MESSAGE"
+        }
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3801ad30-3827-11f1-8628-0f74db6fbe04"
+      },
+      "name" : "Save Timeseries",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 825,
+        "layoutY" : 52
+      },
+      "configuration" : {
+        "processingSettings" : {
+          "type" : "ON_EVERY_MESSAGE"
+        },
+        "scope" : "CLIENT_SCOPE",
+        "notifyDevice" : false,
+        "sendAttributesUpdatedNotification" : false,
+        "updateAttributesOnlyOnValueChange" : true
+      },
+      "configurationVersion" : 3,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "38029790-3827-11f1-8628-0f74db6fbe04"
+      },
+      "name" : "Save Client Attributes",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 347,
+        "layoutY" : 149
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "38030cc0-3827-11f1-8628-0f74db6fbe04"
+      },
+      "name" : "Message Type Switch",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 825,
+        "layoutY" : 266
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);",
+        "tbelScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "38035ae0-3827-11f1-8628-0f74db6fbe04"
+      },
+      "name" : "Log RPC from Device",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 825,
+        "layoutY" : 379
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);",
+        "tbelScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "380381f0-3827-11f1-8628-0f74db6fbe04"
+      },
+      "name" : "Log Other",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 825,
+        "layoutY" : 468
+      },
+      "configuration" : {
+        "timeoutInSeconds" : 60
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3803f720-3827-11f1-8628-0f74db6fbe04"
+      },
+      "name" : "RPC Call Request",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Process incoming messages from devices with the alarm rules defined in the device profile. Dispatch all incoming messages with \"Success\" relation type.",
+        "layoutX" : 204,
+        "layoutY" : 240
+      },
+      "configuration" : {
+        "persistAlarmRulesState" : false,
+        "fetchAlarmRulesStateOnStart" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "38044540-3827-11f1-8628-0f74db6fbe04"
+      },
+      "name" : "Device Profile Node",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.profile.TbDeviceProfileNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 62,
+        "layoutY" : 617
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "return msg.temperature > 35;",
+        "tbelScript" : "return msg.temperature > 35;"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "dbc6c7a0-3851-11f1-8628-0f74db6fbe04"
+      },
+      "name" : "High temp Check",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 334,
+        "layoutY" : 658
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "alarmDetailsBuildJs" : "var details = {};\nif (metadata.prevAlarmDetails) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    delete metadata.prevAlarmDetails;\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "alarmDetailsBuildTbel" : "var details = {};\nif (metadata.prevAlarmDetails != null) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    metadata.remove('prevAlarmDetails');\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "useMessageAlarmData" : false,
+        "overwriteAlarmDetails" : false,
+        "alarmType" : "HIGH_TEMPRATURE",
+        "severity" : "CRITICAL",
+        "propagate" : false,
+        "relationTypes" : [ ],
+        "propagateToOwner" : false,
+        "propagateToTenant" : false,
+        "dynamicSeverity" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "dbc84e40-3851-11f1-8628-0f74db6fbe04"
+      },
+      "name" : "High temp Alarm",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateAlarmNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 104,
+        "layoutY" : 712
+      },
+      "configuration" : {
+        "messageTypes" : [ "ACTIVITY_EVENT" ]
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "dbc89c60-3851-11f1-8628-0f74db6fbe04"
+      },
+      "name" : "Offline Alert",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 367,
+        "layoutY" : 710
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "alarmDetailsBuildJs" : "var details = {};\nif (metadata.prevAlarmDetails) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    delete metadata.prevAlarmDetails;\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "alarmDetailsBuildTbel" : "var details = {};\nif (metadata.prevAlarmDetails != null) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    metadata.remove('prevAlarmDetails');\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "useMessageAlarmData" : false,
+        "overwriteAlarmDetails" : false,
+        "alarmType" : "ROOM_OFFLINE",
+        "severity" : "WARNING",
+        "propagate" : false,
+        "relationTypes" : [ ],
+        "propagateToOwner" : false,
+        "propagateToTenant" : false,
+        "dynamicSeverity" : false
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "dbc8c370-3851-11f1-8628-0f74db6fbe04"
+      },
+      "name" : "Offline room warning",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateAlarmNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 122,
+        "layoutY" : 550
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "// Device name format: b01-f01-r101\r\n// Extract floor number from device name\r\nvar parts = originator.name.split('-');\r\n// parts[0] = b01, parts[1] = f01, parts[2] = r101\r\n\r\nvar floorNum = parseInt(parts[1].replace('f', ''));\r\nvar floorAssetName = 'Floor-' + (floorNum < 10 ? '0' + floorNum : '' + floorNum);\r\n\r\nmsg.floorAsset = floorAssetName;\r\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : "// Device name format: b01-f01-r101\r\n// Extract floor number from device name\r\nvar parts = originator.name.split('-');\r\n// parts[0] = b01, parts[1] = f01, parts[2] = r101\r\n\r\nvar floorNum = parseInt(parts[1].replace('f', ''));\r\nvar floorAssetName = 'Floor-' + (floorNum < 10 ? '0' + floorNum : '' + floorNum);\r\n\r\nmsg.floorAsset = floorAssetName;\r\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "461c5920-3853-11f1-8628-0f74db6fbe04"
+      },
+      "name" : "Extract Floor from Device",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 387,
+        "layoutY" : 551
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "ASSET",
+        "entityNamePattern" : "${msg.floorAsset}",
+        "entityTypePattern" : "Floor",
+        "relationType" : "Contains",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "46a0a450-3853-11f1-8628-0f74db6fbe04"
+      },
+      "name" : "Link Device to Floor",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 334,
+        "layoutY" : 599
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "alarmDetailsBuildJs" : "var details = {};\nif (metadata.prevAlarmDetails) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    delete metadata.prevAlarmDetails;\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "alarmDetailsBuildTbel" : "var details = {};\nif (metadata.prevAlarmDetails != null) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    metadata.remove('prevAlarmDetails');\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "alarmType" : "High temprature"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "52869550-38d4-11f1-8626-29a16b615372"
+      },
+      "name" : "High temp alarm clear",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbClearAlarmNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1088,
+        "layoutY" : 565
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "if (msg.method === \"setHvacMode\") {\r\n    return {\r\n        msg: {\r\n            hvac_mode: msg.params.mode\r\n        },\r\n        metadata: metadata,\r\n        msgType: \"POST_TELEMETRY_REQUEST\"\r\n    };\r\n}\r\nreturn null;",
+        "tbelScript" : "return msg.temperature > 20;"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0bdbeb90-38ee-11f1-8626-29a16b615372"
+      },
+      "name" : "Show HVAC",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
       "additionalInfo" : {
         "layoutX" : 824,
         "layoutY" : 156
@@ -194,7 +630,7 @@
         "persistAlarmRulesState" : false,
         "fetchAlarmRulesStateOnStart" : false
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugSettings" : null,
       "externalId" : null,

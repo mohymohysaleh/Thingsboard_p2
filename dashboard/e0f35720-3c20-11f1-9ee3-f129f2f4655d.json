@@ -1,0 +1,24 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "title" : "dashboard1",
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "configuration" : {
+      "description" : ""
+    },
+    "name" : "dashboard1",
+    "resources" : null,
+    "assignedCustomers" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "e0f35720-3c20-11f1-9ee3-f129f2f4655d"
+    }
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
