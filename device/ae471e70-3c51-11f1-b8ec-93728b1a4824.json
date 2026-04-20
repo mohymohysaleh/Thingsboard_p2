@@ -1,0 +1,243 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : true,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "bd70a0a0-3b30-11f1-88fb-27c6733518bf"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "ae471e70-3c51-11f1-b8ec-93728b1a4824"
+    },
+    "label" : "",
+    "name" : "TB Gateway floor 7",
+    "softwareId" : null,
+    "type" : "default"
+  },
+  "credentials" : {
+    "credentialsId" : "RVIsr3r7EJNKhcx1v9y3",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ae471e70-3c51-11f1-b8ec-93728b1a4824"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4577efc5-3c59-11f1-a9cd-93728b1a4824"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2173
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ae471e70-3c51-11f1-b8ec-93728b1a4824"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "490d99a0-3c59-11f1-a9cd-93728b1a4824"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2180
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ae471e70-3c51-11f1-b8ec-93728b1a4824"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "75535791-3c5c-11f1-9cb4-d78f6a24a564"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2212
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ae471e70-3c51-11f1-b8ec-93728b1a4824"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "759eb870-3c5c-11f1-9cb4-d78f6a24a564"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2256
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ae471e70-3c51-11f1-b8ec-93728b1a4824"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "759f54b0-3c5c-11f1-9cb4-d78f6a24a564"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2258
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ae471e70-3c51-11f1-b8ec-93728b1a4824"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "759fa2d0-3c5c-11f1-9cb4-d78f6a24a564"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2253
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ae471e70-3c51-11f1-b8ec-93728b1a4824"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "759fc9e0-3c5c-11f1-9cb4-d78f6a24a564"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2254
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ae471e70-3c51-11f1-b8ec-93728b1a4824"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "75a40fa1-3c5c-11f1-9cb4-d78f6a24a564"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2262
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ae471e70-3c51-11f1-b8ec-93728b1a4824"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "75a60b70-3c5c-11f1-9cb4-d78f6a24a564"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2259
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ae471e70-3c51-11f1-b8ec-93728b1a4824"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "75a680a0-3c5c-11f1-9cb4-d78f6a24a564"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2261
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ae471e70-3c51-11f1-b8ec-93728b1a4824"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "75af3330-3c5c-11f1-9cb4-d78f6a24a564"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2268
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ae471e70-3c51-11f1-b8ec-93728b1a4824"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "75bfadf0-3c5c-11f1-9cb4-d78f6a24a564"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2274
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1776681765668,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1776681765125,
+      "longValue" : 1776681765124,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1776681856189,
+      "longValue" : 1776681853353,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1776681765666,
+      "longValue" : 1776681765666,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1776657142270,
+      "longValue" : 1776657142270,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

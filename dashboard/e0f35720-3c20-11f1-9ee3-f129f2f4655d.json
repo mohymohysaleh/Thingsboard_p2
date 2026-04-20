@@ -10,8 +10,11 @@
     },
     "name" : "dashboard1",
     "resources" : null,
-    "assignedCustomers" : null,
-    "externalId" : null,
+    "assignedCustomers" : [ ],
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "e0f35720-3c20-11f1-9ee3-f129f2f4655d"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "e0f35720-3c20-11f1-9ee3-f129f2f4655d"
