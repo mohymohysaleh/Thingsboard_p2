@@ -47,11 +47,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "a05ce760-3ce0-11f1-b91b-2dd3a71b1c3e"
+      "id" : "5ef5f350-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3494
+    "version" : 7473
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -60,11 +60,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "a05ce761-3ce0-11f1-b91b-2dd3a71b1c3e"
+      "id" : "5effb750-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3495
+    "version" : 7514
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -73,11 +73,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "a05ce762-3ce0-11f1-b91b-2dd3a71b1c3e"
+      "id" : "5effb751-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3498
+    "version" : 7512
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -86,11 +86,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "a05ce763-3ce0-11f1-b91b-2dd3a71b1c3e"
+      "id" : "5f005390-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3497
+    "version" : 7518
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -99,11 +99,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "a05ce764-3ce0-11f1-b91b-2dd3a71b1c3e"
+      "id" : "5f007aa2-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3496
+    "version" : 7516
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -112,11 +112,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "bfd93f70-3ce1-11f1-ac4f-4dc42a1a89a8"
+      "id" : "5f00efd0-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3500
+    "version" : 7517
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -125,11 +125,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "bfd93f71-3ce1-11f1-ac4f-4dc42a1a89a8"
+      "id" : "5f01b320-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3499
+    "version" : 7521
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -138,11 +138,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "bff66460-3ce1-11f1-ac4f-4dc42a1a89a8"
+      "id" : "5f01b321-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3501
+    "version" : 7523
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -151,11 +151,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "c02ed980-3ce1-11f1-ac4f-4dc42a1a89a8"
+      "id" : "5f02eba0-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3502
+    "version" : 7526
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -164,11 +164,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "c0bc4c70-3ce1-11f1-ac4f-4dc42a1a89a8"
+      "id" : "5f0387e0-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3503
+    "version" : 7527
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -177,11 +177,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "c1053c50-3ce1-11f1-ac4f-4dc42a1a89a8"
+      "id" : "6014a9c0-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3504
+    "version" : 7603
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -190,11 +190,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "c11086f0-3ce1-11f1-ac4f-4dc42a1a89a8"
+      "id" : "601b8790-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3505
+    "version" : 7617
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -203,11 +203,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "c1279160-3ce1-11f1-ac4f-4dc42a1a89a8"
+      "id" : "601b8791-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3506
+    "version" : 7621
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -216,11 +216,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "c1f28280-3ce1-11f1-ac4f-4dc42a1a89a8"
+      "id" : "601baea0-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3507
+    "version" : 7614
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -229,11 +229,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "c23ad620-3ce1-11f1-ac4f-4dc42a1a89a8"
+      "id" : "601baea1-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3508
+    "version" : 7613
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -242,11 +242,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "2dac6650-3ce0-11f1-ab46-176dea97bcf5"
+      "id" : "601bd5b0-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3473
+    "version" : 7616
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -255,11 +255,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "2db40770-3ce0-11f1-ab46-176dea97bcf5"
+      "id" : "601bd5b1-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3475
+    "version" : 7619
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -268,11 +268,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "2db40771-3ce0-11f1-ab46-176dea97bcf5"
+      "id" : "601bd5b2-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3474
+    "version" : 7615
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -281,11 +281,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "2db45590-3ce0-11f1-ab46-176dea97bcf5"
+      "id" : "601bfcc0-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3476
+    "version" : 7618
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -294,11 +294,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "2db45591-3ce0-11f1-ab46-176dea97bcf5"
+      "id" : "601c71f0-3dc3-11f1-b9fc-1bcc01abe102"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 3477
+    "version" : 7620
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
@@ -306,7 +306,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1776705567647,
+      "lastUpdateTs" : 1776899063337,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -314,32 +314,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1776700264990,
-      "longValue" : 1776700264989,
+      "lastUpdateTs" : 1776899054402,
+      "longValue" : 1776899054402,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1776715472620,
-      "longValue" : 1776715472456,
+      "lastUpdateTs" : 1776899175925,
+      "longValue" : 1776899175679,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1776715181576,
-      "longValue" : 1776715181576,
+      "lastUpdateTs" : 1776899063327,
+      "longValue" : 1776899063327,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1776714892343,
-      "longValue" : 1776714892343,
+      "lastUpdateTs" : 1776820021179,
+      "longValue" : 1776820021179,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

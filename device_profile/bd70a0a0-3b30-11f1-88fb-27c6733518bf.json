@@ -24,15 +24,17 @@
         "type" : "DEFAULT"
       },
       "provisionConfiguration" : {
-        "type" : "DISABLED",
-        "provisionDeviceSecret" : null
+        "type" : "X509_CERTIFICATE_CHAIN",
+        "allowCreateNewDevicesByX509Certificate" : true,
+        "certificateRegExPattern" : "(.*)",
+        "provisionDeviceSecret" : "MIIFWjCCA0KgAwIBAgIUMUHrczYNUw3CGozerpxKfIx70mwwDQYJKoZIhvcNAQELBQAwRTELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUxITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDAeFw0yNjA0MjIwMDUxMjBaFw0yNzA0MjIwMDUxMjBaMEUxCzAJBgNVBAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCwpb+2fdfb3A+tmDKEo6QY9ZCkQf4nqOVUgz/jIIp8MP2YZ2pp4BDQz9oz2VFIg6e+wyx2nqKc1AWiH6BFqfXcFFGezoePpebLC4tRXwUs02OuBlFDH4AKOG2gjMWbmajAlmpHRsKqoBNbIt5nunA1Bb7TIDB9b9HZAPAmDg815ivkfnFu1+po7Zbc+Y0aHhpD4SF6w1/4iVK5uQ+GZCHXFUDRi3JXUF39LF9c4Wyp08SVErwT9WpuKzOArSLa5rCSJBT07ePJj8+rLBTsep1iu/c8k63r1rat/8le4iQ0zbmsNsFxyZSliJPj121vMdBZyHfhyAjw/JmEY7eD3KNWyJuRt3XeCAVkgqfeZdCrICHjQMnI6xOWtU5WM873aWg3ZtNApOuDfaQK9sNuJnYcDU5UJG8+HrZCZ1Va+vqWgnoRLdNhE5+4DDg8j76IxODfT/bvIcPLoSTFe58jIAfSaOc3rnK6Pb6ASVL/sh2PM3jtFOO9kPW9qOQHXEeAuE0o9anlFyHy29OkhNSmwNzyVmM5c7/KAgh0+EKSNRHJRa7XZBTTt+ycTBWLGQXtmhzRTLx+L0ZLRsKw4E9scuQuMT0rscnOU5zDWx4DUdLRuPDEhCLA7lqJJphXWqlTqDu7a9Aio7VVhYWZV7lK35FhCW8Tb/DEYPXN0OPvlQisGwIDAQABo0IwQDAdBgNVHQ4EFgQULCEtBz5t/zODaT3x/fKzw1PGneYwHwYDVR0jBBgwFoAUisBS/FTXPeRjzyat4Vy0B81F0NcwDQYJKoZIhvcNAQELBQADggIBAJowc79Db5O0v9Js1y/m7Owvkszg10jHXXJuiq+nYBWjtkPsPAl7MFTzHSMRMPeIrLU2aTIB+y9lqzz0mKeu6lnHrhJZVjGZtIXsWeUdQJrbx79LapCpBlHNJ+O+Pg28oUq4xcMRIaQMNH0bvL25twu1yOhhGjjG3M1VtBhJvq5Gc9yGOrpztcx61vaR+LounNAc0oSUs3Q6sWoFgTQA+euHXLK+C/ykjZTi/pras55FfSHUG55WF8Pxkr74rRunOMacU6HW2KPtn4c3XYVc/z1VMVSxCYVL5Mq4wmUQGFoyf9cvcTBGWqVTb2qWRdMhamPcgM3kwfGElLc0ZQAtJS239yI+lxBOWvgUsOtsz4E7wCnHAr1s6TEH5rf537zP/fba4/M1l5XInfow/Z0QbekU6TuvARtztD6/nVjuK7EBnwLMLFb5C4aeYKZGUiB87+N/s0f0Km53Em4YebUrX9ozUvxLU2tBqSCM1N+YqolOG+y+4yXH3zQND8FWOJAE6xvx37B1S2qzfC+ceHKhfTcrmHthJgyluOqooPeMWeuIKpr/QYqfbiOubmc+4DyYYZJWWU9YvukJapPhdIvbxhlFpXQ8E/+KdCotz3KWFz30Pvh6CmwUMv/HoMCMjSbNwQL08AmO2+Syd8qBiDcf7UGbbGoEMncbOBkMMrhkGy6x"
       },
       "transportConfiguration" : {
         "type" : "DEFAULT"
       }
     },
-    "provisionDeviceKey" : null,
-    "provisionType" : "DISABLED",
+    "provisionDeviceKey" : "93a2cfab3f4680314e744e3664ea688a7cf357e34415566d6f4035daf769d535",
+    "provisionType" : "X509_CERTIFICATE_CHAIN",
     "softwareId" : null,
     "transportType" : "DEFAULT",
     "type" : "DEFAULT"

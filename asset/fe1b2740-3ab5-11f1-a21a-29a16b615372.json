@@ -34,7 +34,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 1620
+    "version" : 3232
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
