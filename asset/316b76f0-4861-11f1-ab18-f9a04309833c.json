@@ -1,0 +1,40 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "30083d70-4861-11f1-ab18-f9a04309833c"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "316b76f0-4861-11f1-ab18-f9a04309833c"
+    },
+    "label" : null,
+    "name" : "Room-R115",
+    "type" : "room"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "316b76f0-4861-11f1-ab18-f9a04309833c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9c9ff7c0-4857-11f1-b81a-fb30f2edb9ba"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2202
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}
