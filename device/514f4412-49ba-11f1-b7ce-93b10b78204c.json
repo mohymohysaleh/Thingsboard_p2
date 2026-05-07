@@ -1,0 +1,151 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "9db86d00-48a1-11f1-8eeb-93b10b78204c"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "bd70a0a0-3b30-11f1-88fb-27c6733518bf"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "514f4412-49ba-11f1-b7ce-93b10b78204c"
+    },
+    "label" : null,
+    "name" : "b01-f01-r005",
+    "softwareId" : null,
+    "type" : "default"
+  },
+  "credentials" : {
+    "credentialsId" : "TxqT4YBPOff2pB574U6E",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "f1676d20-3c30-11f1-a558-93c41929d309"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "514f4412-49ba-11f1-b7ce-93b10b78204c"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 6525
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "30195470-4861-11f1-ab18-f9a04309833c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "514f4412-49ba-11f1-b7ce-93b10b78204c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 6714
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1778151818843,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1778151811061,
+      "longValue" : 1778151811061,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1778162071686,
+      "longValue" : 1778162071040,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1778161379460,
+      "longValue" : 1778161379460,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1778159872564,
+      "longValue" : 1778159872564,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[[0.4584155038247982,0.032450724313776894],[0.5485399347807922,0.36720976103861314]]",
+      "key" : "perimeter",
+      "lastUpdateTs" : 1778161299285,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "config_data",
+      "lastUpdateTs" : 1778161323945,
+      "longValue" : null,
+      "strValue" : "{\"alpha\":0.05,\"beta\":0.35}"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "signature",
+      "lastUpdateTs" : 1778161323945,
+      "longValue" : null,
+      "strValue" : "ead365a0e6aacf647ca9ac8101fcbee0907bf69359de2120e1ba7b2a2f8b390a"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "target",
+      "lastUpdateTs" : 1778161323945,
+      "longValue" : null,
+      "strValue" : "b01-f01-r005"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "target_version",
+      "lastUpdateTs" : 1778161323945,
+      "longValue" : 70,
+      "strValue" : null
+    } ]
+  },
+  "calculatedFields" : [ ]
+}

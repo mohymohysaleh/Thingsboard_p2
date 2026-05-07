@@ -17,7 +17,10 @@
       }
     },
     "etag" : "40f99b7fab8bcf79e99963eecd26b279dc8d0b8c0f3b6a6176dc14da5637d3d5",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "a6e781d0-4866-11f1-ab18-f9a04309833c"
+    },
     "fileName" : "floor-layout.png",
     "id" : {
       "entityType" : "TB_RESOURCE",

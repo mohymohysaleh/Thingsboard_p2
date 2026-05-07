@@ -46,7 +46,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1776682377352,
+      "lastUpdateTs" : 1777999908922,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -58,7 +58,39 @@
       "longValue" : 1776281537914,
       "strValue" : null
     } ],
-    "SHARED_SCOPE" : [ ]
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "config_data",
+      "lastUpdateTs" : 1778120053844,
+      "longValue" : null,
+      "strValue" : ""
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "signature",
+      "lastUpdateTs" : 1778120053844,
+      "longValue" : null,
+      "strValue" : ""
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "target",
+      "lastUpdateTs" : 1778120053844,
+      "longValue" : null,
+      "strValue" : "all"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 1.0,
+      "jsonValue" : null,
+      "key" : "target_version",
+      "lastUpdateTs" : 1778120053844,
+      "longValue" : null,
+      "strValue" : null
+    } ]
   },
   "calculatedFields" : [ ]
 }

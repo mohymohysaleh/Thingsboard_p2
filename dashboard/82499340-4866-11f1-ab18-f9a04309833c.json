@@ -115,6 +115,27 @@
                   "color" : "#2196f3",
                   "settings" : { },
                   "_hash" : 0.9458450042888344
+                }, {
+                  "name" : "alpha",
+                  "type" : "timeseries",
+                  "label" : "alpha",
+                  "color" : "#2196f3",
+                  "settings" : { },
+                  "_hash" : 0.22852140176850355
+                }, {
+                  "name" : "beta",
+                  "type" : "timeseries",
+                  "label" : "beta",
+                  "color" : "#2196f3",
+                  "settings" : { },
+                  "_hash" : 0.39575059560497317
+                }, {
+                  "name" : "current_version",
+                  "type" : "timeseries",
+                  "label" : "current_version",
+                  "color" : "#2196f3",
+                  "settings" : { },
+                  "_hash" : 0.22497463725287659
                 } ],
                 "label" : {
                   "show" : false,
@@ -126,14 +147,26 @@
                   "trigger" : "hover",
                   "autoclose" : true,
                   "type" : "pattern",
-                  "pattern" : "<b>${entityName}</b><br/>\n<b>Temperature:</b> ${temperature} <br/>\n<b>Humidity:</b> ${humidity} <br/>\n<b>HVAC:</b> ${hvac_status} <br/>\n<b>Last sent: </b> ${lastActivityTime}\n",
+                  "pattern" : "<b>${entityName}</b><br/>\n<b>Temperature:</b> ${temperature} <br/>\n<b>Humidity:</b> ${humidity} <br/>\n<b>HVAC:</b> ${hvac_status} <br/>\n<b>Last sent: </b> ${lastActivityTime} <br/>\n<b>Version:</b> ${current_version} <br/>\n<b>Alpha: </b> ${alpha}\n<b>Beta: </b> ${beta}\n",
                   "offsetX" : 0,
                   "offsetY" : -1,
                   "patternFunction" : null,
                   "tagActions" : null
                 },
                 "click" : {
-                  "type" : "doNothing"
+                  "type" : "openDashboardState",
+                  "targetDashboardStateId" : "update_ID",
+                  "setEntityId" : true,
+                  "stateEntityParamName" : null,
+                  "openRightLayout" : false,
+                  "popoverPreferredPlacement" : "top",
+                  "popoverHideOnClickOutside" : true,
+                  "popoverHideDashboardToolbar" : true,
+                  "popoverWidth" : "45vw",
+                  "popoverHeight" : "65vh",
+                  "popoverStyle" : { },
+                  "openInSeparateDialog" : false,
+                  "openInPopover" : true
                 },
                 "groups" : null,
                 "edit" : {
@@ -221,7 +254,7 @@
             },
             "pageSize" : 1024,
             "noDataDisplayMessage" : "",
-            "configMode" : "basic",
+            "configMode" : "advanced",
             "titleFont" : null,
             "titleColor" : null,
             "margin" : "0px",
@@ -229,7 +262,31 @@
             "iconSize" : "24px",
             "titleIcon" : "map",
             "iconColor" : "#1F6BDD",
-            "actions" : { }
+            "actions" : {
+              "headerButton" : [ {
+                "name" : "OTA Update",
+                "buttonType" : "icon",
+                "icon" : "more_horiz",
+                "buttonColor" : null,
+                "customButtonStyle" : { },
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "update_ID",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "popoverPreferredPlacement" : "top",
+                "popoverHideOnClickOutside" : true,
+                "popoverHideDashboardToolbar" : true,
+                "popoverWidth" : "25vw",
+                "popoverHeight" : "25vh",
+                "popoverStyle" : { },
+                "openInSeparateDialog" : false,
+                "openInPopover" : true,
+                "id" : "320b8a8f-be03-3f5a-723d-85eccf01bf6b"
+              } ]
+            }
           },
           "row" : 0,
           "col" : 0,
@@ -345,6 +402,182 @@
           "row" : 0,
           "col" : 0,
           "id" : "b1a3422a-81c0-7501-314a-e7e273045bcb"
+        },
+        "70363b29-e25e-96cc-263b-ec36b0f777df" : {
+          "typeFullFqn" : "tenant.update_ota2",
+          "type" : "latest",
+          "sizeX" : 9.5,
+          "sizeY" : 14,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : "",
+              "entityAliasId" : "baac9ff9-de26-59ef-b9d9-1b7ad7b498b8",
+              "dataKeys" : [ {
+                "name" : "alpha",
+                "type" : "timeseries",
+                "label" : "alpha",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.29459888923567745
+              }, {
+                "name" : "beta",
+                "type" : "timeseries",
+                "label" : "beta",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.8910299422505424
+              }, {
+                "name" : "current_version",
+                "type" : "timeseries",
+                "label" : "current_version",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.21216746682575427
+              }, {
+                "name" : "target_version",
+                "type" : "attribute",
+                "label" : "target_version",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.2173544161357579
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1778011087969,
+                  "endTimeMs" : 1778097487969
+                },
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0",
+            "settings" : { },
+            "title" : "Attributes card",
+            "decimals" : null,
+            "useDashboardTimewindow" : true,
+            "displayTimewindow" : true,
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "dropShadow" : false,
+            "enableFullscreen" : true,
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : "",
+            "margin" : "0",
+            "borderRadius" : "0"
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "70363b29-e25e-96cc-263b-ec36b0f777df"
+        },
+        "08654070-6955-ab63-df63-e7a447e354f1" : {
+          "typeFullFqn" : "tenant.update_all_ota",
+          "type" : "latest",
+          "sizeX" : 9,
+          "sizeY" : 4.5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : "",
+              "entityAliasId" : "6ed331cf-36b5-fa01-8f7c-5d2de0b6e499",
+              "dataKeys" : [ {
+                "name" : "ota_floor_acked",
+                "type" : "timeseries",
+                "label" : "ota_floor_acked",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.13317410501882443
+              }, {
+                "name" : "ota_acked_version",
+                "type" : "timeseries",
+                "label" : "ota_acked_version",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.7658181810979858
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1778074127882,
+                  "endTimeMs" : 1778160527882
+                },
+                "quickInterval" : "CURRENT_DAY",
+                "hideInterval" : false,
+                "hideLastInterval" : false,
+                "hideFixedInterval" : false,
+                "hideQuickInterval" : false
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "Attributes card",
+            "decimals" : null,
+            "useDashboardTimewindow" : true,
+            "displayTimewindow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "08654070-6955-ab63-df63-e7a447e354f1"
         }
       },
       "states" : {
@@ -356,15 +589,22 @@
               "widgets" : {
                 "f01f67c8-58f1-de15-3c00-b572f05278a8" : {
                   "sizeX" : 16,
-                  "sizeY" : 10,
-                  "row" : 0,
-                  "col" : 0
+                  "sizeY" : 12,
+                  "row" : 4,
+                  "col" : 0,
+                  "resizable" : false
                 },
                 "b1a3422a-81c0-7501-314a-e7e273045bcb" : {
-                  "sizeX" : 5,
-                  "sizeY" : 10,
+                  "sizeX" : 6,
+                  "sizeY" : 12,
                   "row" : 0,
                   "col" : 16
+                },
+                "08654070-6955-ab63-df63-e7a447e354f1" : {
+                  "sizeX" : 16,
+                  "sizeY" : 4,
+                  "row" : 0,
+                  "col" : 0
                 }
               },
               "gridSettings" : {
@@ -384,6 +624,32 @@
           "layouts" : {
             "main" : {
               "widgets" : { },
+              "gridSettings" : {
+                "layoutType" : "default",
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "outerMargin" : true,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        },
+        "update_ID" : {
+          "name" : "OTA_UPDATE",
+          "root" : false,
+          "layouts" : {
+            "main" : {
+              "widgets" : {
+                "70363b29-e25e-96cc-263b-ec36b0f777df" : {
+                  "sizeX" : 9,
+                  "sizeY" : 14,
+                  "row" : 0,
+                  "col" : 0,
+                  "resizable" : false,
+                  "preserveAspectRatio" : false
+                }
+              },
               "gridSettings" : {
                 "layoutType" : "default",
                 "backgroundColor" : "#eeeeee",
@@ -427,6 +693,36 @@
             "resolveMultiple" : true,
             "assetTypes" : [ "floor" ],
             "assetNameFilter" : ""
+          }
+        },
+        "2bee2ee6-a017-6e04-bdb3-c9f54f7d1723" : {
+          "id" : "2bee2ee6-a017-6e04-bdb3-c9f54f7d1723",
+          "alias" : "Entity's ID",
+          "filter" : {
+            "type" : "stateEntity",
+            "resolveMultiple" : false,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null
+          }
+        },
+        "baac9ff9-de26-59ef-b9d9-1b7ad7b498b8" : {
+          "id" : "baac9ff9-de26-59ef-b9d9-1b7ad7b498b8",
+          "alias" : "Active Room",
+          "filter" : {
+            "type" : "stateEntity",
+            "resolveMultiple" : false,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null
+          }
+        },
+        "6ed331cf-36b5-fa01-8f7c-5d2de0b6e499" : {
+          "id" : "6ed331cf-36b5-fa01-8f7c-5d2de0b6e499",
+          "alias" : "Gateways",
+          "filter" : {
+            "type" : "entityList",
+            "resolveMultiple" : true,
+            "entityType" : "DEVICE",
+            "entityList" : [ "f1676d20-3c30-11f1-a558-93c41929d309", "d92225a0-3c50-11f1-b8ec-93728b1a4824", "ff20dcb0-3c50-11f1-b8ec-93728b1a4824", "70181500-3c51-11f1-b8ec-93728b1a4824", "8080ac90-3c51-11f1-b8ec-93728b1a4824", "9372ae20-3c51-11f1-b8ec-93728b1a4824", "ae471e70-3c51-11f1-b8ec-93728b1a4824", "c1fe92e0-3c51-11f1-b8ec-93728b1a4824", "d07dd100-3c51-11f1-b8ec-93728b1a4824", "e12bd600-3c51-11f1-b8ec-93728b1a4824" ]
           }
         }
       },
@@ -565,8 +861,11 @@
     },
     "name" : "Enhanced Dashboard",
     "resources" : null,
-    "assignedCustomers" : null,
-    "externalId" : null,
+    "assignedCustomers" : [ ],
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "82499340-4866-11f1-ab18-f9a04309833c"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "82499340-4866-11f1-ab18-f9a04309833c"

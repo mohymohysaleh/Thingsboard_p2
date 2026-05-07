@@ -10,7 +10,10 @@
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "300ecd20-4861-11f1-ab18-f9a04309833c"
+    },
     "id" : {
       "entityType" : "ASSET",
       "id" : "300ecd20-4861-11f1-ab18-f9a04309833c"
@@ -31,7 +34,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 2362
+    "version" : 4094
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -40,14 +43,22 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "9beab180-4857-11f1-b81a-fb30f2edb9ba"
+      "id" : "508ba5f0-49ba-11f1-b7ce-93b10b78204c"
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 2161
+    "version" : 6670
   } ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[[0.15619496639323263,0.031082161678609152],[0.251085937378976,0.26314780375664415]]",
+      "key" : "perimeter",
+      "lastUpdateTs" : 1778120896766,
+      "longValue" : null,
+      "strValue" : null
+    } ]
   },
   "calculatedFields" : [ ]
 }

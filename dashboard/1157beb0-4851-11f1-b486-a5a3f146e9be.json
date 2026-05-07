@@ -2124,8 +2124,11 @@
     },
     "name" : "Thermostats",
     "resources" : null,
-    "assignedCustomers" : null,
-    "externalId" : null,
+    "assignedCustomers" : [ ],
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "1157beb0-4851-11f1-b486-a5a3f146e9be"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "1157beb0-4851-11f1-b486-a5a3f146e9be"

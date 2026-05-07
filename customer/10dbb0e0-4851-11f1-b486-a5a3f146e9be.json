@@ -7,7 +7,10 @@
     "city" : null,
     "country" : null,
     "email" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "10dbb0e0-4851-11f1-b486-a5a3f146e9be"
+    },
     "id" : {
       "entityType" : "CUSTOMER",
       "id" : "10dbb0e0-4851-11f1-b486-a5a3f146e9be"

@@ -46,7 +46,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1776683126614,
+      "lastUpdateTs" : 1777999909161,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -109,6 +109,14 @@
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "config_data",
+      "lastUpdateTs" : 1778120053872,
+      "longValue" : null,
+      "strValue" : ""
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
       "jsonValue" : "{\"host\":\"mytb\",\"port\":1883,\"remoteShell\":false,\"remoteConfiguration\":true,\"checkConnectorsConfigurationInSeconds\":60,\"statistics\":{\"enable\":true,\"statsSendPeriodInSeconds\":3600,\"customStatsSendPeriodInSeconds\":3600,\"commands\":[]},\"maxPayloadSizeBytes\":8196,\"minPackSendDelayMS\":50,\"minPackSizeToSend\":500,\"handleDeviceRenaming\":true,\"checkingDeviceActivity\":{\"checkDeviceInactivity\":false,\"inactivityTimeoutSeconds\":300,\"inactivityCheckPeriodSeconds\":10},\"security\":{\"type\":\"accessToken\",\"accessToken\":\"6Uq9dZnyZiSQWo1UBPiD\"},\"qos\":1,\"ts\":1776525311931}",
       "key" : "general_configuration",
       "lastUpdateTs" : 1776525312081,
@@ -141,9 +149,33 @@
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "signature",
+      "lastUpdateTs" : 1778120053872,
+      "longValue" : null,
+      "strValue" : ""
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
       "jsonValue" : "{\"type\":\"memory\",\"read_records_count\":100,\"max_records_count\":100000,\"data_folder_path\":\"./data/\",\"max_file_count\":10,\"max_read_records_count\":10,\"max_records_per_file\":10000,\"data_file_path\":\"./data/data.db\",\"messages_ttl_check_in_hours\":1,\"messages_ttl_in_days\":7,\"ts\":1776525311931}",
       "key" : "storage_configuration",
       "lastUpdateTs" : 1776525312081,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "target",
+      "lastUpdateTs" : 1778120053872,
+      "longValue" : null,
+      "strValue" : "all"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 1.0,
+      "jsonValue" : null,
+      "key" : "target_version",
+      "lastUpdateTs" : 1778120053872,
       "longValue" : null,
       "strValue" : null
     } ]

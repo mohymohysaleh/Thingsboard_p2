@@ -10,7 +10,10 @@
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "30517b70-4861-11f1-ab18-f9a04309833c"
+    },
     "id" : {
       "entityType" : "ASSET",
       "id" : "30517b70-4861-11f1-ab18-f9a04309833c"
@@ -31,7 +34,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 2378
+    "version" : 3760
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -40,11 +43,11 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "9bf1b660-4857-11f1-b81a-fb30f2edb9ba"
+      "id" : "5092d1e2-49ba-11f1-b7ce-93b10b78204c"
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 2168
+    "version" : 6677
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
