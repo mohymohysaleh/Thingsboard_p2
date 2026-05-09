@@ -34,7 +34,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 3898
+    "version" : 1245
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -43,14 +43,38 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "5154e963-49ba-11f1-b7ce-93b10b78204c"
+      "id" : "81a4f030-4b16-11f1-b975-638d8b93477d"
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 6749
+    "version" : 4566
   } ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "occupant_capacity",
+      "lastUpdateTs" : 1778269690556,
+      "longValue" : 30,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "room_type",
+      "lastUpdateTs" : 1778269690556,
+      "longValue" : null,
+      "strValue" : "lecture_hall"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "square_footage",
+      "lastUpdateTs" : 1778269690556,
+      "longValue" : 60,
+      "strValue" : null
+    } ]
   },
   "calculatedFields" : [ ]
 }

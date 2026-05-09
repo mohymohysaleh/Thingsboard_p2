@@ -34,7 +34,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 5007
+    "version" : 1243
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -43,14 +43,38 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "5154e961-49ba-11f1-b7ce-93b10b78204c"
+      "id" : "819008a0-4b16-11f1-b975-638d8b93477d"
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 6747
+    "version" : 4565
   } ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "occupant_capacity",
+      "lastUpdateTs" : 1778269690467,
+      "longValue" : 40,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "room_type",
+      "lastUpdateTs" : 1778269690467,
+      "longValue" : null,
+      "strValue" : "office"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "square_footage",
+      "lastUpdateTs" : 1778269690467,
+      "longValue" : 50,
+      "strValue" : null
+    } ]
   },
   "calculatedFields" : [ ]
 }

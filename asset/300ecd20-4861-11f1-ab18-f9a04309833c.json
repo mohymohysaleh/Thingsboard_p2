@@ -34,7 +34,7 @@
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 4094
+    "version" : 472
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -43,20 +43,44 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "508ba5f0-49ba-11f1-b7ce-93b10b78204c"
+      "id" : "7b42ae40-4b15-11f1-beb5-f5c3c85875b7"
     },
     "type" : "Contains",
     "typeGroup" : "COMMON",
-    "version" : 6670
+    "version" : 4517
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "occupant_capacity",
+      "lastUpdateTs" : 1778269682081,
+      "longValue" : 35,
+      "strValue" : null
+    }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : "[[0.15619496639323263,0.031082161678609152],[0.251085937378976,0.26314780375664415]]",
       "key" : "perimeter",
       "lastUpdateTs" : 1778120896766,
       "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "room_type",
+      "lastUpdateTs" : 1778269682081,
+      "longValue" : null,
+      "strValue" : "lab"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "square_footage",
+      "lastUpdateTs" : 1778269682081,
+      "longValue" : 50,
       "strValue" : null
     } ]
   },
