@@ -10,7 +10,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "bd4b3e50-3b30-11f1-88fb-27c6733518bf"
+      "id" : "01b4c7d0-4b14-11f1-beb5-f5c3c85875b7"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -98,6 +98,10 @@
       "toIndex" : 20,
       "type" : "RPC Request to Device"
     }, {
+      "fromIndex" : 17,
+      "toIndex" : 22,
+      "type" : "Post telemetry"
+    }, {
       "fromIndex" : 21,
       "toIndex" : 17,
       "type" : "Success"
@@ -121,7 +125,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3801ad30-3827-11f1-8628-0f74db6fbe04"
+        "id" : "018a3560-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Save Timeseries",
       "queueName" : null,
@@ -148,7 +152,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "38029790-3827-11f1-8628-0f74db6fbe04"
+        "id" : "018af8b0-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Save Client Attributes",
       "queueName" : null,
@@ -169,7 +173,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "38030cc0-3827-11f1-8628-0f74db6fbe04"
+        "id" : "018bbc00-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Message Type Switch",
       "queueName" : null,
@@ -192,7 +196,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "38035ae0-3827-11f1-8628-0f74db6fbe04"
+        "id" : "018c0a20-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Log RPC from Device",
       "queueName" : null,
@@ -215,7 +219,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "380381f0-3827-11f1-8628-0f74db6fbe04"
+        "id" : "018c5840-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Log Other",
       "queueName" : null,
@@ -236,7 +240,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "3803f720-3827-11f1-8628-0f74db6fbe04"
+        "id" : "018c7f50-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "RPC Call Request",
       "queueName" : null,
@@ -259,7 +263,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "38044540-3827-11f1-8628-0f74db6fbe04"
+        "id" : "018ccd70-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Device Profile Node",
       "queueName" : null,
@@ -283,7 +287,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "dbc6c7a0-3851-11f1-8628-0f74db6fbe04"
+        "id" : "018d69b0-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "High temp Check",
       "queueName" : null,
@@ -316,7 +320,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "dbc84e40-3851-11f1-8628-0f74db6fbe04"
+        "id" : "018e5410-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "High temp Alarm",
       "queueName" : null,
@@ -338,7 +342,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "dbc89c60-3851-11f1-8628-0f74db6fbe04"
+        "id" : "018f1760-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Offline Alert",
       "queueName" : null,
@@ -371,7 +375,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "dbc8c370-3851-11f1-8628-0f74db6fbe04"
+        "id" : "018f6580-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Offline room warning",
       "queueName" : null,
@@ -395,7 +399,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "461c5920-3853-11f1-8628-0f74db6fbe04"
+        "id" : "018f8c90-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Extract Floor from Device",
       "queueName" : null,
@@ -424,7 +428,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "46a0a450-3853-11f1-8628-0f74db6fbe04"
+        "id" : "019001c0-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Link Device to Floor",
       "queueName" : null,
@@ -449,7 +453,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "52869550-38d4-11f1-8626-29a16b615372"
+        "id" : "01909e00-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "High temp alarm clear",
       "queueName" : null,
@@ -473,7 +477,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "0bdbeb90-38ee-11f1-8626-29a16b615372"
+        "id" : "0190ec20-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Show HVAC",
       "queueName" : null,
@@ -498,7 +502,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "bd42b2d0-3b30-11f1-88fb-27c6733518bf"
+        "id" : "01b31a20-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Save Timeseries",
       "queueName" : null,
@@ -525,7 +529,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "bd4523d0-3b30-11f1-88fb-27c6733518bf"
+        "id" : "01b34130-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Save Client Attributes",
       "queueName" : null,
@@ -546,7 +550,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "bd4746b0-3b30-11f1-88fb-27c6733518bf"
+        "id" : "01b3b660-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Message Type Switch",
       "queueName" : null,
@@ -569,7 +573,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "bd480a00-3b30-11f1-88fb-27c6733518bf"
+        "id" : "01b40480-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Log RPC from Device",
       "queueName" : null,
@@ -592,7 +596,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "bd494280-3b30-11f1-88fb-27c6733518bf"
+        "id" : "01b452a0-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Log Other",
       "queueName" : null,
@@ -613,7 +617,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "bd4a53f0-3b30-11f1-88fb-27c6733518bf"
+        "id" : "01b479b0-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "RPC Call Request",
       "queueName" : null,
@@ -636,17 +640,53 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "bd4b3e50-3b30-11f1-88fb-27c6733518bf"
+        "id" : "01b4c7d0-4b14-11f1-beb5-f5c3c85875b7"
       },
       "name" : "Device Profile Node",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.profile.TbDeviceProfileNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 879,
+        "layoutY" : 691
+      },
+      "configuration" : {
+        "forwardMsgToDefaultRuleChain" : false,
+        "ruleChainId" : "4c44fc60-4bfb-11f1-a381-c7d475e08754"
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a21493f0-4bfe-11f1-a381-c7d475e08754"
+      },
+      "name" : "rule chain",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
     } ],
     "ruleChainConnections" : null
   },
-  "relations" : [ ],
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "bd34d020-3b30-11f1-88fb-27c6733518bf"
+    },
+    "to" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "4c44fc60-4bfb-11f1-a381-c7d475e08754"
+    },
+    "type" : "Uses",
+    "typeGroup" : "COMMON",
+    "version" : 4655
+  } ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }

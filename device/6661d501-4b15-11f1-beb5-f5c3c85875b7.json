@@ -69,7 +69,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1778336875308,
+      "lastUpdateTs" : 1778705099250,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -77,32 +77,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1778336867447,
-      "longValue" : 1778336867447,
+      "lastUpdateTs" : 1778704595320,
+      "longValue" : 1778704595320,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1778347557971,
-      "longValue" : 1778347557178,
+      "lastUpdateTs" : 1778717003724,
+      "longValue" : 1778717003698,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1778344464030,
-      "longValue" : 1778344464030,
+      "lastUpdateTs" : 1778705481795,
+      "longValue" : 1778705481795,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1778344054057,
-      "longValue" : 1778344054057,
+      "lastUpdateTs" : 1778705302084,
+      "longValue" : 1778705302084,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

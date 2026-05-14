@@ -47,6 +47,19 @@
     },
     "to" : {
       "entityType" : "DEVICE",
+      "id" : "580958a0-4f0e-11f1-b99c-e3e8357fc210"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 4699
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "f1676d20-3c30-11f1-a558-93c41929d309"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
       "id" : "79e08630-4b15-11f1-beb5-f5c3c85875b7"
     },
     "type" : "Created",
@@ -306,7 +319,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1778336869469,
+      "lastUpdateTs" : 1778705098858,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -314,32 +327,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1778336867529,
-      "longValue" : 1778336867529,
+      "lastUpdateTs" : 1778704595336,
+      "longValue" : 1778704595336,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1778347557984,
-      "longValue" : 1778347556605,
+      "lastUpdateTs" : 1778717003713,
+      "longValue" : 1778717003688,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1778344464119,
-      "longValue" : 1778344464119,
+      "lastUpdateTs" : 1778705479924,
+      "longValue" : 1778705479924,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1778344054124,
-      "longValue" : 1778344054124,
+      "lastUpdateTs" : 1778705302094,
+      "longValue" : 1778705302094,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {
@@ -347,23 +360,23 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "config_data",
-      "lastUpdateTs" : 1778347171398,
+      "lastUpdateTs" : 1778354998417,
       "longValue" : null,
-      "strValue" : "{\"alpha\":0.4,\"beta\":0.2,\"version\":\"1.0\"}"
+      "strValue" : "{\"alpha\":0.3,\"beta\":0.1,\"version\":\"1.0\"}"
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "signature",
-      "lastUpdateTs" : 1778347171398,
+      "lastUpdateTs" : 1778354998417,
       "longValue" : null,
-      "strValue" : "9117650db814dea2590730ace1c151f0f9996d5a2501cf9351f6aa6f767a14a7"
+      "strValue" : "52caf486ff14a53cca7d9a6c802c164b34d60da11a53bd0584d9498022283f55"
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "target",
-      "lastUpdateTs" : 1778347171398,
+      "lastUpdateTs" : 1778354998417,
       "longValue" : null,
       "strValue" : "all"
     }, {
@@ -371,7 +384,7 @@
       "doubleValue" : 1.0,
       "jsonValue" : null,
       "key" : "target_version",
-      "lastUpdateTs" : 1778347171398,
+      "lastUpdateTs" : 1778354998417,
       "longValue" : null,
       "strValue" : null
     } ]

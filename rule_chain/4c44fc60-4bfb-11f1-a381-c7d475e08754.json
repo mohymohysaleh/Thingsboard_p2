@@ -1,0 +1,210 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : null,
+    "configuration" : { },
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "4c504700-4bfb-11f1-a381-c7d475e08754"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "4c44fc60-4bfb-11f1-a381-c7d475e08754"
+    },
+    "name" : "Floor Avg Temperature (Template)",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 3,
+      "type" : "True"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 4,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 1,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 0,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "layoutX" : 222,
+        "layoutY" : 321
+      },
+      "configuration" : {
+        "messageTypes" : [ "POST_TELEMETRY_REQUEST" ]
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4c504700-4bfb-11f1-a381-c7d475e08754"
+      },
+      "name" : "Telemetry Filter",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 1001,
+        "layoutY" : 344
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "\r\n// Expect an array of related entities with telemetry in msg.data or msg.entities\r\nvar rows = msg.data || msg.entities || [];\r\nvar sum = 0;\r\nvar count = 0;\r\n\r\nrows.forEach(function (row) {\r\n  // Common formats: row.latest.TEMPERATURE[0].value or row.temperature.value\r\n  var t = null;\r\n\r\n  if (row.latest && row.latest.temperature && row.latest.temperature.length) {\r\n    t = row.latest.temperature[0].value;\r\n  } else if (row.temperature && row.temperature.value !== undefined) {\r\n    t = row.temperature.value;\r\n  } else if (row.temperature !== undefined) {\r\n    t = row.temperature;\r\n  }\r\n\r\n  t = Number(t);\r\n  if (!isNaN(t)) {\r\n    sum += t;\r\n    count += 1;\r\n  }\r\n});\r\n\r\nif (count === 0) return null;\r\n\r\nmsg = {\r\n  floor_avg_temperature: sum / count,\r\n  floor_avg_sample_count: count\r\n};\r\nreturn { msg: msg, metadata: metadata, msgType: 'POST_TELEMETRY_REQUEST' };",
+        "tbelScript" : null
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4c506e10-4bfb-11f1-a381-c7d475e08754"
+      },
+      "name" : "Map Floor Avg Telemetry",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1149,
+        "layoutY" : 157
+      },
+      "configuration" : {
+        "processingSettings" : {
+          "timeseries" : {
+            "type" : "ON_EVERY_MESSAGE"
+          },
+          "latest" : {
+            "type" : "ON_EVERY_MESSAGE"
+          },
+          "webSockets" : {
+            "type" : "ON_EVERY_MESSAGE"
+          },
+          "calculatedFields" : {
+            "type" : "ON_EVERY_MESSAGE"
+          },
+          "type" : "ADVANCED"
+        },
+        "defaultTTL" : 0,
+        "useServerTs" : false
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4c509520-4bfb-11f1-a381-c7d475e08754"
+      },
+      "name" : "Save floor telemetry",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 426,
+        "layoutY" : 345
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : true,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "ASSET" ]
+          } ]
+        },
+        "dataToFetch" : "LATEST_TELEMETRY",
+        "fetchTo" : "METADATA",
+        "dataMapping" : { }
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4c50e340-4bfb-11f1-a381-c7d475e08754"
+      },
+      "name" : "Find Parent Floor",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedAttributeNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 735,
+        "layoutY" : 355
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : true,
+          "direction" : "FROM",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "ASSET" ]
+          } ]
+        },
+        "dataToFetch" : "LATEST_TELEMETRY",
+        "fetchTo" : "DATA",
+        "dataMapping" : {
+          "temperature" : "temperature"
+        }
+      },
+      "configurationVersion" : 1,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4c513160-4bfb-11f1-a381-c7d475e08754"
+      },
+      "name" : "Aggregate latest",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetRelatedAttributeNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "bd34d020-3b30-11f1-88fb-27c6733518bf"
+    },
+    "to" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "4c44fc60-4bfb-11f1-a381-c7d475e08754"
+    },
+    "type" : "Uses",
+    "typeGroup" : "COMMON",
+    "version" : 4655
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

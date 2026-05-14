@@ -2,7 +2,7 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "lastConnectedGateway" : "2ffb1810-4b14-11f1-beb5-f5c3c85875b7"
+      "lastConnectedGateway" : "47007f00-4b14-11f1-beb5-f5c3c85875b7"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -24,15 +24,15 @@
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "7b8b7714-4b15-11f1-beb5-f5c3c85875b7"
+      "id" : "580958a0-4f0e-11f1-b99c-e3e8357fc210"
     },
     "label" : null,
-    "name" : "b01-f05-r088-COAP",
+    "name" : "b01-f1-r2",
     "softwareId" : null,
     "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "IuzGmRjaxGOxya73lJqc",
+    "credentialsId" : "Sji9ESX470UwV1f4ATxg",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -40,36 +40,23 @@
     "additionalInfo" : null,
     "from" : {
       "entityType" : "DEVICE",
-      "id" : "8080ac90-3c51-11f1-b8ec-93728b1a4824"
+      "id" : "f1676d20-3c30-11f1-a558-93c41929d309"
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "7b8b7714-4b15-11f1-beb5-f5c3c85875b7"
+      "id" : "580958a0-4f0e-11f1-b99c-e3e8357fc210"
     },
     "type" : "Created",
     "typeGroup" : "COMMON",
-    "version" : 4329
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "ASSET",
-      "id" : "311abee0-4861-11f1-ab18-f9a04309833c"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "7b8b7714-4b15-11f1-beb5-f5c3c85875b7"
-    },
-    "type" : "Contains",
-    "typeGroup" : "COMMON",
-    "version" : 4531
+    "version" : 4699
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : true,
+      "booleanValue" : false,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1778705105145,
+      "lastUpdateTs" : 1778711473940,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -77,32 +64,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1778704595303,
-      "longValue" : 1778704595303,
+      "lastUpdateTs" : 1778711473935,
+      "longValue" : 1778711473935,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1778717006736,
-      "longValue" : 1778717004807,
+      "lastUpdateTs" : 1778710868746,
+      "longValue" : 1778710867816,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1778705484098,
-      "longValue" : 1778705484098,
+      "lastUpdateTs" : 1778710266638,
+      "longValue" : 1778710266638,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1778705302094,
-      "longValue" : 1778705302094,
+      "lastUpdateTs" : 1778710867842,
+      "longValue" : 1778710867842,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
